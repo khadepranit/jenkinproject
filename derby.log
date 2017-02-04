@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Feb 04 12:54:20 IST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015a-0802-6add-0000112e2318 
+on database directory memory:C:\Users\Ultimosoft\Desktop\AdvMulePrograms\jenkinproject\muleEmbeddedDB with class loader org.mule.module.launcher.MuleApplicationClassLoader[jenkinproject]@7aead3af 
+Loaded from file:/C:/Users/Ultimosoft/Desktop/AdvMulePrograms/.mule/apps/jenkinproject/lib/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_112-b15
+user.dir=C:\Users\Ultimosoft\Desktop\AdvMulePrograms\jenkinproject
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
