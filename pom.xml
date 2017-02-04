@@ -13,37 +13,40 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<mule.version>3.8.3</mule.version>
-    	<mule.tools.version>1.2</mule.tools.version>
+    	<mule.tools.version>2.0</mule.tools.version>
     	<derby.version>10.12.1.1</derby.version>
 	</properties>
 
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.mule.tools.maven</groupId>
-				<artifactId>mule-app-maven-plugin</artifactId>
-				<version>${mule.tools.version}</version>
-				<extensions>true</extensions>
-				<configuration>
-					<deploymentType>cloudhub</deploymentType>
-					<muleVersion>3.8.3</muleVersion>
-					<username>pranitultimosoft</username>
-					<password>Ultimo123</password>
-					<workerType>Micro</workerType>
-					<redeploy>true</redeploy>
-					<environment>Production</environment>
-                    <copyToAppsDirectory>true</copyToAppsDirectory>
-				</configuration>
-				<executions>
-					<execution>
-						<id>deploy</id>
-						<phase>deploy</phase>
-						<goals>
-							<goal>deploy</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+        <groupId>org.mule.tools.maven</groupId>
+        <artifactId>mule-app-maven-plugin</artifactId>
+        <version>1.1</version>
+        <extensions>true</extensions>
+    </plugin>
+    <plugin>
+        <groupId>org.mule.tools.maven</groupId>
+        <artifactId>mule-maven-plugin</artifactId>
+        <version>2.0</version>
+        <configuration>
+            <deploymentType>cloudhub</deploymentType>
+            <muleVersion>${mule.version}</muleVersion>
+            <username>pranitultimosoft</username>
+            <password>Ultimo123</password>
+            <redeploy>true</redeploy>
+            <environment>Production</environment>
+        </configuration>
+        <executions>
+            <execution>
+                <id>deploy</id>
+                <phase>deploy</phase>
+                <goals>
+                    <goal>deploy</goal>
+                </goals>
+            </execution>
+        </executions>
+    </plugin>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
@@ -194,6 +197,10 @@
                 <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
+        <pluginRepository>
+        <id>mule-public</id>
+        <url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
+    </pluginRepository>
     </pluginRepositories>
 
 </project>
