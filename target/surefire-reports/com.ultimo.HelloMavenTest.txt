@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ultimo.HelloMavenTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.65 sec - in com.ultimo.HelloMavenTest
