@@ -12,6 +12,6 @@ public class HelloMavenTest extends FunctionalTestCase{
 	
 	@Test
 	public void mavenFlowReturns() throws Exception{
-		runFlowAndExpect("jenkinFlow", "Hello World");
+		runFlowAndExpect("jenkinFlow", "Hello Maven");
 	}
 }
