@@ -27,8 +27,8 @@
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>3.8.3</muleVersion>
-					<username>pranit</username>
-					<password>Ultimosoft_16</password>
+					<username>pranitultimosoft</username>
+					<password>Ultimo123</password>
 					<workerType>Micro</workerType>
 					<redeploy>true</redeploy>
 					<environment>Production</environment>
