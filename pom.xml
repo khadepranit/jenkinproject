@@ -26,7 +26,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
-					<muleVersion>${mule.version}</muleVersion>
+					<muleVersion>3.8.3</muleVersion>
 					<username>pranit</username>
 					<password>Ultimosoft_16</password>
 					<workerType>Micro</workerType>
