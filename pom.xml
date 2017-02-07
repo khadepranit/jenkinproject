@@ -3,7 +3,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ultimo</groupId>
-	<artifactId>jenkinproject</artifactId>
+	<artifactId>jenkin</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule</packaging>
 	<name>Mule jenkinproject Application</name>
